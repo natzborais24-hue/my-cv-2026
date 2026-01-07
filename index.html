@@ -22,16 +22,15 @@
             border-radius: 12px; 
             box-shadow: 0 8px 32px rgba(0,0,0,0.1);
             margin-bottom: 30px;
-            position: relative;
         }
-        .headshot { 
-            width: 180px; 
-            height: 180px; 
-            border-radius: 50%; 
-            object-fit: cover; 
-            border: 5px solid #1e3c72; 
-            margin: 0 auto 20px; 
-            display: block;
+        .headshot-container {
+            margin: 0 auto 20px;
+            max-width: 300px;
+        }
+        .headshot-container blockquote {
+            margin: 0 !important;
+            border-radius: 12px;
+            overflow: hidden;
             box-shadow: 0 8px 25px rgba(30,60,114,0.3);
         }
         h1 { 
@@ -106,14 +105,18 @@
         @media (max-width: 768px) { 
             body { padding: 10px; } 
             header { padding: 30px 15px; } 
-            .headshot { width: 140px; height: 140px; }
             section { padding: 20px; } 
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="https://i.imgur.com/BuX66IV.jpg" alt="Nathaniel Borais - Maritime Professional Headshot" class="headshot">
+        <div class="headshot-container">
+            <blockquote class="imgur-embed-pub" lang="en" data-id="BuX66IV">
+                <a href="//imgur.com/BuX66IV">View post on imgur.com</a>
+            </blockquote>
+            <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+        </div>
         <h1>NATHANIEL BORAIS</h1>
         <p class="subtitle">Second Officer / Maritime Professional</p>
         <div class="contact">
@@ -128,76 +131,6 @@
         <p class="profile">Experienced maritime professional with 10+ years tanker operations, transitioning to shore-based Vessel Operations Coordinator role. Currently pursuing Master's in Shipping Management (PMMA). Proven in voyage planning, navigation coordination with masters/port authorities, cargo operations, and regulatory compliance (STCW/SOLAS/ISM). Detail-oriented with strong analytical skills from competency assessment and voyage documentation. Ready to support vessel operations, stakeholder communication, and performance tracking.</p>
     </section>
 
-    <section id="experience">
-        <h2>Professional Experience</h2>
-        
-        <div class="job">
-            <h3>Maritime Professor</h3>
-            <p class="dates">PNTC Colleges-Dasmariñas | 2024–2025</p>
-            <ul>
-                <li>Deliver classroom and practical instruction in maritime subjects to develop competent, STCW-aligned cadets and trainees</li>
-                <li>Contribute to curriculum and assessment development incorporating current regulations, best practices, and evidence-based crew performance evaluation</li>
-            </ul>
-        </div>
+    <section id="experience
 
-        <div class="job">
-            <h3>Third Officer</h3>
-            <p class="dates">KJCM Maritime / Epsilon Maritime | 2019–2021</p>
-            <ul>
-                <li>Served as navigation and watchkeeping officer ensuring safe compliance with COLREGs and company procedures</li>
-                <li>Acted as safety and deck officer responsible for lifesaving/firefighting appliances and supervising cargo/ballast operations</li>
-            </ul>
-        </div>
-
-        <div class="job">
-            <h3>Deck Cadetship / Ratings</h3>
-            <p class="dates">MMSPhil Maritime | 2012–2018</p>
-            <ul>
-                <li>Assisted with navigation watches, cargo ops, ship maintenance, and safety drills during sea training on tankers</li>
-                <li>Conducted deck maintenance, painting, mooring, cargo gear handling, and safety drill participation</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="education">
-        <h2>Education</h2>
-        <div class="job">
-            <h3>Master of Shipping Management (In Progress)</h3>
-            <p class="dates">PMMA Graduate School | 2024–Present</p>
-        </div>
-        <div class="job">
-            <h3>Bachelor of Marine Transportation</h3>
-            <p class="dates">Maritime Academy of Asia and the Pacific | 2009–2013</p>
-        </div>
-        <div class="job">
-            <h3>Bachelor of Computer Science</h3>
-            <p class="dates">University of the Philippines - Diliman | 2006–2009</p>
-        </div>
-    </section>
-
-    <section id="skills">
-        <h2>Core Skills</h2>
-        <div class="skills">
-            <div class="skill-tag">Project Management</div>
-            <div class="skill-tag">Maritime Instruction</div>
-            <div class="skill-tag">Curriculum Development</div>
-            <div class="skill-tag">Data Analytics</div>
-            <div class="skill-tag">Leadership</div>
-            <div class="skill-tag">Effective Communication</div>
-            <div class="skill-tag">Competency Assessment</div>
-            <div class="skill-tag">Environmental Compliance</div>
-            <div class="skill-tag">Web Development</div>
-            <div class="skill-tag">Data Analysis</div>
-        </div>
-    </section>
-
-    <section id="languages">
-        <h2>Languages</h2>
-        <ul>
-            <li>English (Fluent)</li>
-            <li>Filipino (Fluent)</li>
-        </ul>
-    </section>
-
-    <footer style="text-align: center
 
